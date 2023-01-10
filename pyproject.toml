@@ -4,12 +4,12 @@ version = "0.1.0"
 description = ""
 authors = ["Progrok <Dist812@yandex.ru>"]
 readme = "README.md"
-packages = [
-  { include = "brain_games" },
-]
+packages = [{include = "brain_games"},
+            { include = "brain_games" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+prompt = "^0.4.1"
 
 
 [build-system]
